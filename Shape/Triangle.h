@@ -29,7 +29,7 @@ public:
 
 	virtual void SetSides(const float a, const float b, const float c);
 
-	virtual std::string GetType() { return "Triangle"; }
+	virtual std::string GetType() const { return "Triangle"; }
 
 	virtual float GetArea() const;
 
